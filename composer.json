@@ -1,6 +1,13 @@
 {
 	"name":"helloword",
 	"description":"this is a helloword project",
+	 "authors": [
+        {
+            "name": "Jett",
+            "email": "1741947058@qq.com",
+            "homepage": "http://www.citycloud.org.cn/"
+        }
+    ],
 	"require":{
 		"php":">=5.3.3"
 	},
