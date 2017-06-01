@@ -1,20 +1,24 @@
 {
-	"name":"helloword",
-	"description":"this is a helloword project",
-	 "authors": [
+    "name": "luoxiandong/helloworld",
+    "type": "library",
+    "description": "Logging for PHP 5.3",
+    "keywords": ["jett","hello"],
+    "homepage": "https://github.com/luoxiandong/helloworld",
+    "license": "MIT",
+    "authors": [
         {
             "name": "Jett",
             "email": "1741947058@qq.com",
-            "homepage": "http://www.citycloud.org.cn/"
+            "homepage": "http://www.citycloud.org.cn/",
+            "role": "Developer"
         }
     ],
-	"require":{
-		"php":">=5.3.3"
-	},
-	"repositories":{
-		"packagist":{
-			"type":"composer",
-			"url":"https://packagist.phpcomposer.com"
-		}
-	}
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
 }
